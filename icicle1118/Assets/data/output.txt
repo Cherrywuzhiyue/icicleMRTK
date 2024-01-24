@@ -1,0 +1,1414 @@
+new Node
+{
+    name = "补益剂",
+    value = 1,
+    name2 = "补益剂",
+    colour = "WhiteSmoke",
+    fangji = "生脉散★、四君子汤★、参苓白术散★、八珍汤★、当归补血汤★、玉屏风散★、补中益气汤★、归脾汤★、龟鹿二仙胶★、右归丸、一贯煎★、肾气丸★、炙甘草汤(复脉汤)★、七宝美髯丹、大补阴丸★、四物汤★、六味地黄丸★、左归丸、地黄饮子★、完带汤★",
+    children = new Node[]
+    {
+        new Node
+        {
+            name = "人参",
+            value = 4,
+            name2 = "人参",
+            colour = "Blue",
+            fangji = "生脉散★、四君子汤★、参苓白术散★、八珍汤★",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = " ",
+                    value = 2,
+                    name2 = "人参",
+                    colour = "WhiteSmoke",
+                    fangji = "生脉散★、四君子汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = " ",
+                            value = 2,
+                            name2 = "人参",
+                            colour = "WhiteSmoke",
+                            fangji = "生脉散★、四君子汤★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "五味子",
+                                    value = 1,
+                                    name2 = "五味子",
+                                    colour = "WhiteSmoke",
+                                    fangji = "生脉散★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "麦冬",
+                                            value = 1,
+                                            name2 = "麦冬",
+                                            colour = "WhiteSmoke",
+                                            fangji = "生脉散★",
+                                        },
+                                    }
+                                },
+                                new Node
+                                {
+                                    name = "白术",
+                                    value = 1,
+                                    name2 = "白术",
+                                    colour = "WhiteSmoke",
+                                    fangji = "四君子汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "茯苓",
+                                            value = 1,
+                                            name2 = "茯苓",
+                                            colour = "WhiteSmoke",
+                                            fangji = "四君子汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "甘草",
+                                                    value = 1,
+                                                    name2 = "甘草",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "四君子汤★",
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = " ",
+                    value = 1,
+                    name2 = "人参",
+                    colour = "WhiteSmoke",
+                    fangji = "八珍汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "熟地黄",
+                            value = 1,
+                            name2 = "熟地黄",
+                            colour = "Blue",
+                            fangji = "八珍汤★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "白术",
+                                    value = 1,
+                                    name2 = "白术",
+                                    colour = "WhiteSmoke",
+                                    fangji = "八珍汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "茯苓",
+                                            value = 1,
+                                            name2 = "茯苓",
+                                            colour = "WhiteSmoke",
+                                            fangji = "八珍汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "炙甘草",
+                                                    value = 1,
+                                                    name2 = "炙甘草",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "八珍汤★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "生姜",
+                                                            value = 1,
+                                                            name2 = "生姜",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "八珍汤★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "当归",
+                                                                    value = 1,
+                                                                    name2 = "当归",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "八珍汤★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "大枣",
+                                                                            value = 1,
+                                                                            name2 = "大枣",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "八珍汤★",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "白芍",
+                                                                                    value = 1,
+                                                                                    name2 = "白芍",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "八珍汤★",
+                                                                                    children = new Node[]
+                                                                                    {
+                                                                                        new Node
+                                                                                        {
+                                                                                            name = "川芎",
+                                                                                            value = 1,
+                                                                                            name2 = "川芎",
+                                                                                            colour = "WhiteSmoke",
+                                                                                            fangji = "八珍汤★",
+                                                                                        },
+                                                                                    }
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = "茯苓",
+                    value = 1,
+                    name2 = "茯苓",
+                    colour = "Blue",
+                    fangji = "参苓白术散★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "白术",
+                            value = 1,
+                            name2 = "白术",
+                            colour = "Blue",
+                            fangji = "参苓白术散★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "砂仁",
+                                    value = 1,
+                                    name2 = "砂仁",
+                                    colour = "WhiteSmoke",
+                                    fangji = "参苓白术散★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "莲子",
+                                            value = 1,
+                                            name2 = "莲子",
+                                            colour = "WhiteSmoke",
+                                            fangji = "参苓白术散★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "甘草",
+                                                    value = 1,
+                                                    name2 = "甘草",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "参苓白术散★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "桔梗",
+                                                            value = 1,
+                                                            name2 = "桔梗",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "参苓白术散★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "山药",
+                                                                    value = 1,
+                                                                    name2 = "山药",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "参苓白术散★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "大枣",
+                                                                            value = 1,
+                                                                            name2 = "大枣",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "参苓白术散★",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "薏苡仁",
+                                                                                    value = 1,
+                                                                                    name2 = "薏苡仁",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "参苓白术散★",
+                                                                                    children = new Node[]
+                                                                                    {
+                                                                                        new Node
+                                                                                        {
+                                                                                            name = "白扁豆",
+                                                                                            value = 1,
+                                                                                            name2 = "白扁豆",
+                                                                                            colour = "WhiteSmoke",
+                                                                                            fangji = "参苓白术散★",
+                                                                                        },
+                                                                                    }
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "黄芪",
+            value = 4,
+            name2 = "黄芪",
+            colour = "Blue",
+            fangji = "补中益气汤★、玉屏风散★、当归补血汤★、归脾汤★",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = " ",
+                    value = 3,
+                    name2 = "黄芪",
+                    colour = "WhiteSmoke",
+                    fangji = "补中益气汤★、玉屏风散★、当归补血汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "当归",
+                            value = 1,
+                            name2 = "当归",
+                            colour = "WhiteSmoke",
+                            fangji = "当归补血汤★",
+                        },
+                        new Node
+                        {
+                            name = "白术",
+                            value = 2,
+                            name2 = "白术",
+                            colour = "WhiteSmoke",
+                            fangji = "补中益气汤★、玉屏风散★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "防风",
+                                    value = 1,
+                                    name2 = "防风",
+                                    colour = "WhiteSmoke",
+                                    fangji = "玉屏风散★",
+                                },
+                                new Node
+                                {
+                                    name = "当归",
+                                    value = 1,
+                                    name2 = "当归",
+                                    colour = "WhiteSmoke",
+                                    fangji = "补中益气汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "升麻",
+                                            value = 1,
+                                            name2 = "升麻",
+                                            colour = "WhiteSmoke",
+                                            fangji = "补中益气汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "人参",
+                                                    value = 1,
+                                                    name2 = "人参",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "补中益气汤★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "陈皮",
+                                                            value = 1,
+                                                            name2 = "陈皮",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "补中益气汤★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "柴胡",
+                                                                    value = 1,
+                                                                    name2 = "柴胡",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "补中益气汤★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "炙甘草",
+                                                                            value = 1,
+                                                                            name2 = "炙甘草",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "补中益气汤★",
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = "龙眼肉",
+                    value = 1,
+                    name2 = "龙眼肉",
+                    colour = "Blue",
+                    fangji = "归脾汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "白术",
+                            value = 1,
+                            name2 = "白术",
+                            colour = "WhiteSmoke",
+                            fangji = "归脾汤★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "当归",
+                                    value = 1,
+                                    name2 = "当归",
+                                    colour = "WhiteSmoke",
+                                    fangji = "归脾汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "炙甘草",
+                                            value = 1,
+                                            name2 = "炙甘草",
+                                            colour = "WhiteSmoke",
+                                            fangji = "归脾汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "人参",
+                                                    value = 1,
+                                                    name2 = "人参",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "归脾汤★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "远志",
+                                                            value = 1,
+                                                            name2 = "远志",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "归脾汤★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "酸枣仁",
+                                                                    value = 1,
+                                                                    name2 = "酸枣仁",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "归脾汤★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "木香",
+                                                                            value = 1,
+                                                                            name2 = "木香",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "归脾汤★",
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "白术",
+            value = 1,
+            name2 = "白术",
+            colour = "Blue",
+            fangji = "完带汤★",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = "山药",
+                    value = 1,
+                    name2 = "山药",
+                    colour = "Blue",
+                    fangji = "完带汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "苍术",
+                            value = 1,
+                            name2 = "苍术",
+                            colour = "WhiteSmoke",
+                            fangji = "完带汤★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "荆芥炭",
+                                    value = 1,
+                                    name2 = "荆芥炭",
+                                    colour = "WhiteSmoke",
+                                    fangji = "完带汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "甘草",
+                                            value = 1,
+                                            name2 = "甘草",
+                                            colour = "WhiteSmoke",
+                                            fangji = "完带汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "人参",
+                                                    value = 1,
+                                                    name2 = "人参",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "完带汤★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "陈皮",
+                                                            value = 1,
+                                                            name2 = "陈皮",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "完带汤★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "车前子",
+                                                                    value = 1,
+                                                                    name2 = "车前子",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "完带汤★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "柴胡",
+                                                                            value = 1,
+                                                                            name2 = "柴胡",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "完带汤★",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "白芍",
+                                                                                    value = 1,
+                                                                                    name2 = "白芍",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "完带汤★",
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "地黄",
+            value = 3,
+            name2 = "地黄",
+            colour = "Blue",
+            fangji = "炙甘草汤(复脉汤)★、一贯煎★、肾气丸★",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = "麦冬",
+                    value = 2,
+                    name2 = "麦冬",
+                    colour = "WhiteSmoke",
+                    fangji = "炙甘草汤(复脉汤)★、一贯煎★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "当归",
+                            value = 1,
+                            name2 = "当归",
+                            colour = "WhiteSmoke",
+                            fangji = "一贯煎★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "枸杞子",
+                                    value = 1,
+                                    name2 = "枸杞子",
+                                    colour = "WhiteSmoke",
+                                    fangji = "一贯煎★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "北沙参",
+                                            value = 1,
+                                            name2 = "北沙参",
+                                            colour = "WhiteSmoke",
+                                            fangji = "一贯煎★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "川楝子",
+                                                    value = 1,
+                                                    name2 = "川楝子",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "一贯煎★",
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                        new Node
+                        {
+                            name = "桂枝",
+                            value = 1,
+                            name2 = "桂枝",
+                            colour = "WhiteSmoke",
+                            fangji = "炙甘草汤(复脉汤)★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "阿胶",
+                                    value = 1,
+                                    name2 = "阿胶",
+                                    colour = "WhiteSmoke",
+                                    fangji = "炙甘草汤(复脉汤)★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "火麻仁",
+                                            value = 1,
+                                            name2 = "火麻仁",
+                                            colour = "WhiteSmoke",
+                                            fangji = "炙甘草汤(复脉汤)★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "炙甘草",
+                                                    value = 1,
+                                                    name2 = "炙甘草",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "炙甘草汤(复脉汤)★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "大枣",
+                                                            value = 1,
+                                                            name2 = "大枣",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "炙甘草汤(复脉汤)★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "人参",
+                                                                    value = 1,
+                                                                    name2 = "人参",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "炙甘草汤(复脉汤)★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "生姜",
+                                                                            value = 1,
+                                                                            name2 = "生姜",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "炙甘草汤(复脉汤)★",
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = "泽泻",
+                    value = 1,
+                    name2 = "泽泻",
+                    colour = "WhiteSmoke",
+                    fangji = "肾气丸★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "桂枝",
+                            value = 1,
+                            name2 = "桂枝",
+                            colour = "WhiteSmoke",
+                            fangji = "肾气丸★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "牡丹皮",
+                                    value = 1,
+                                    name2 = "牡丹皮",
+                                    colour = "WhiteSmoke",
+                                    fangji = "肾气丸★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "山药",
+                                            value = 1,
+                                            name2 = "山药",
+                                            colour = "WhiteSmoke",
+                                            fangji = "肾气丸★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "茯苓",
+                                                    value = 1,
+                                                    name2 = "茯苓",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "肾气丸★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "附子",
+                                                            value = 1,
+                                                            name2 = "附子",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "肾气丸★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "山茱萸",
+                                                                    value = 1,
+                                                                    name2 = "山茱萸",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "肾气丸★",
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "何首乌",
+            value = 1,
+            name2 = "何首乌",
+            colour = "Blue",
+            fangji = "七宝美髯丹",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = "牛膝",
+                    value = 1,
+                    name2 = "牛膝",
+                    colour = "WhiteSmoke",
+                    fangji = "七宝美髯丹",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "当归",
+                            value = 1,
+                            name2 = "当归",
+                            colour = "WhiteSmoke",
+                            fangji = "七宝美髯丹",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "枸杞子",
+                                    value = 1,
+                                    name2 = "枸杞子",
+                                    colour = "WhiteSmoke",
+                                    fangji = "七宝美髯丹",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "菟丝子",
+                                            value = 1,
+                                            name2 = "菟丝子",
+                                            colour = "WhiteSmoke",
+                                            fangji = "七宝美髯丹",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "茯苓",
+                                                    value = 1,
+                                                    name2 = "茯苓",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "七宝美髯丹",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "补骨脂",
+                                                            value = 1,
+                                                            name2 = "补骨脂",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "七宝美髯丹",
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "熟地黄",
+            value = 5,
+            name2 = "熟地黄",
+            colour = "Blue",
+            fangji = "六味地黄丸★、左归丸、四物汤★、大补阴丸★、地黄饮子★",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = " ",
+                    value = 1,
+                    name2 = "熟地黄",
+                    colour = "WhiteSmoke",
+                    fangji = "四物汤★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = " ",
+                            value = 1,
+                            name2 = "熟地黄",
+                            colour = "WhiteSmoke",
+                            fangji = "四物汤★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = " ",
+                                    value = 1,
+                                    name2 = "熟地黄",
+                                    colour = "WhiteSmoke",
+                                    fangji = "四物汤★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "当归",
+                                            value = 1,
+                                            name2 = "当归",
+                                            colour = "WhiteSmoke",
+                                            fangji = "四物汤★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "白芍",
+                                                    value = 1,
+                                                    name2 = "白芍",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "四物汤★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "川芎",
+                                                            value = 1,
+                                                            name2 = "川芎",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "四物汤★",
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = " ",
+                    value = 2,
+                    name2 = "熟地黄",
+                    colour = "WhiteSmoke",
+                    fangji = "六味地黄丸★、左归丸",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = " ",
+                            value = 2,
+                            name2 = "熟地黄",
+                            colour = "WhiteSmoke",
+                            fangji = "六味地黄丸★、左归丸",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = " ",
+                                    value = 2,
+                                    name2 = "熟地黄",
+                                    colour = "WhiteSmoke",
+                                    fangji = "六味地黄丸★、左归丸",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "山药",
+                                            value = 2,
+                                            name2 = "山药",
+                                            colour = "WhiteSmoke",
+                                            fangji = "六味地黄丸★、左归丸",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "山茱萸",
+                                                    value = 2,
+                                                    name2 = "山茱萸",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "六味地黄丸★、左归丸",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "牡丹皮",
+                                                            value = 1,
+                                                            name2 = "牡丹皮",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "六味地黄丸★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "泽泻",
+                                                                    value = 1,
+                                                                    name2 = "泽泻",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "六味地黄丸★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "茯苓",
+                                                                            value = 1,
+                                                                            name2 = "茯苓",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "六味地黄丸★",
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                        new Node
+                                                        {
+                                                            name = "龟甲胶",
+                                                            value = 1,
+                                                            name2 = "龟甲胶",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "左归丸",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "牛膝",
+                                                                    value = 1,
+                                                                    name2 = "牛膝",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "左归丸",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "菟丝子",
+                                                                            value = 1,
+                                                                            name2 = "菟丝子",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "左归丸",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "枸杞子",
+                                                                                    value = 1,
+                                                                                    name2 = "枸杞子",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "左归丸",
+                                                                                    children = new Node[]
+                                                                                    {
+                                                                                        new Node
+                                                                                        {
+                                                                                            name = "鹿角胶",
+                                                                                            value = 1,
+                                                                                            name2 = "鹿角胶",
+                                                                                            colour = "WhiteSmoke",
+                                                                                            fangji = "左归丸",
+                                                                                        },
+                                                                                    }
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = " ",
+                    value = 1,
+                    name2 = "熟地黄",
+                    colour = "WhiteSmoke",
+                    fangji = "大补阴丸★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = " ",
+                            value = 1,
+                            name2 = "熟地黄",
+                            colour = "WhiteSmoke",
+                            fangji = "大补阴丸★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "龟甲",
+                                    value = 1,
+                                    name2 = "龟甲",
+                                    colour = "Blue",
+                                    fangji = "大补阴丸★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "黄柏",
+                                            value = 1,
+                                            name2 = "黄柏",
+                                            colour = "WhiteSmoke",
+                                            fangji = "大补阴丸★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "知母",
+                                                    value = 1,
+                                                    name2 = "知母",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "大补阴丸★",
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = "山茱萸",
+                    value = 1,
+                    name2 = "山茱萸",
+                    colour = "Blue",
+                    fangji = "地黄饮子★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "肉苁蓉",
+                            value = 1,
+                            name2 = "肉苁蓉",
+                            colour = "Blue",
+                            fangji = "地黄饮子★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "巴戟天",
+                                    value = 1,
+                                    name2 = "巴戟天",
+                                    colour = "Blue",
+                                    fangji = "地黄饮子★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "石斛",
+                                            value = 1,
+                                            name2 = "石斛",
+                                            colour = "WhiteSmoke",
+                                            fangji = "地黄饮子★",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "麦冬",
+                                                    value = 1,
+                                                    name2 = "麦冬",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "地黄饮子★",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "肉桂",
+                                                            value = 1,
+                                                            name2 = "肉桂",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "地黄饮子★",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "附子",
+                                                                    value = 1,
+                                                                    name2 = "附子",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "地黄饮子★",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "茯苓",
+                                                                            value = 1,
+                                                                            name2 = "茯苓",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "地黄饮子★",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "大枣",
+                                                                                    value = 1,
+                                                                                    name2 = "大枣",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "地黄饮子★",
+                                                                                    children = new Node[]
+                                                                                    {
+                                                                                        new Node
+                                                                                        {
+                                                                                            name = "五味子",
+                                                                                            value = 1,
+                                                                                            name2 = "五味子",
+                                                                                            colour = "WhiteSmoke",
+                                                                                            fangji = "地黄饮子★",
+                                                                                        },
+                                                                                    }
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+        new Node
+        {
+            name = "鹿角胶",
+            value = 2,
+            name2 = "鹿角胶",
+            colour = "Blue",
+            fangji = "龟鹿二仙胶★、右归丸",
+            children = new Node[]
+            {
+                new Node
+                {
+                    name = " ",
+                    value = 1,
+                    name2 = "鹿角胶",
+                    colour = "WhiteSmoke",
+                    fangji = "龟鹿二仙胶★",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "龟甲胶",
+                            value = 1,
+                            name2 = "龟甲胶",
+                            colour = "Blue",
+                            fangji = "龟鹿二仙胶★",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "人参",
+                                    value = 1,
+                                    name2 = "人参",
+                                    colour = "WhiteSmoke",
+                                    fangji = "龟鹿二仙胶★",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "枸杞子",
+                                            value = 1,
+                                            name2 = "枸杞子",
+                                            colour = "WhiteSmoke",
+                                            fangji = "龟鹿二仙胶★",
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+                new Node
+                {
+                    name = "肉桂",
+                    value = 1,
+                    name2 = "肉桂",
+                    colour = "Blue",
+                    fangji = "右归丸",
+                    children = new Node[]
+                    {
+                        new Node
+                        {
+                            name = "附子",
+                            value = 1,
+                            name2 = "附子",
+                            colour = "Blue",
+                            fangji = "右归丸",
+                            children = new Node[]
+                            {
+                                new Node
+                                {
+                                    name = "当归",
+                                    value = 1,
+                                    name2 = "当归",
+                                    colour = "WhiteSmoke",
+                                    fangji = "右归丸",
+                                    children = new Node[]
+                                    {
+                                        new Node
+                                        {
+                                            name = "枸杞子",
+                                            value = 1,
+                                            name2 = "枸杞子",
+                                            colour = "WhiteSmoke",
+                                            fangji = "右归丸",
+                                            children = new Node[]
+                                            {
+                                                new Node
+                                                {
+                                                    name = "菟丝子",
+                                                    value = 1,
+                                                    name2 = "菟丝子",
+                                                    colour = "WhiteSmoke",
+                                                    fangji = "右归丸",
+                                                    children = new Node[]
+                                                    {
+                                                        new Node
+                                                        {
+                                                            name = "山药",
+                                                            value = 1,
+                                                            name2 = "山药",
+                                                            colour = "WhiteSmoke",
+                                                            fangji = "右归丸",
+                                                            children = new Node[]
+                                                            {
+                                                                new Node
+                                                                {
+                                                                    name = "杜仲",
+                                                                    value = 1,
+                                                                    name2 = "杜仲",
+                                                                    colour = "WhiteSmoke",
+                                                                    fangji = "右归丸",
+                                                                    children = new Node[]
+                                                                    {
+                                                                        new Node
+                                                                        {
+                                                                            name = "熟地黄",
+                                                                            value = 1,
+                                                                            name2 = "熟地黄",
+                                                                            colour = "WhiteSmoke",
+                                                                            fangji = "右归丸",
+                                                                            children = new Node[]
+                                                                            {
+                                                                                new Node
+                                                                                {
+                                                                                    name = "山茱萸",
+                                                                                    value = 1,
+                                                                                    name2 = "山茱萸",
+                                                                                    colour = "WhiteSmoke",
+                                                                                    fangji = "右归丸",
+                                                                                },
+                                                                            }
+                                                                        },
+                                                                    }
+                                                                },
+                                                            }
+                                                        },
+                                                    }
+                                                },
+                                            }
+                                        },
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+            }
+        },
+    }
+}

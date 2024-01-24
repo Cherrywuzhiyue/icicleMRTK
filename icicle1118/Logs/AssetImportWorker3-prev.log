@@ -1,0 +1,316 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.6f1c1 (07401303b748) revision 475155'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65245 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2021.3.6f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity0913/icicle1118
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+58821
+Successfully changed project path to: D:/Unity0913/icicle1118
+D:/Unity0913/icicle1118
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 215.78 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1c1 (07401303b748)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity0913/icicle1118/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10077 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/2021.3.6f1c1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005156 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.17 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.63 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1875ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1612ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1003ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (666ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (113.4 KB). Loaded Objects now: 6218.
+Memory consumption went from 200.7 MB to 200.6 MB.
+Total: 5.673400 ms (FindLiveObjects: 0.797600 ms CreateObjectMapping: 0.770300 ms MarkObjects: 3.942400 ms  DeleteObjects: 0.162300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 697647.696668 seconds.
+  path: Assets/MRTK/Examples/Demos/PulseShader/Profile/PulseShaderSpatialAwarenessSystemProfile.asset
+  artifactKey: Guid(3ea2b5c1a6bd325419115bda69ef3186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/PulseShader/Profile/PulseShaderSpatialAwarenessSystemProfile.asset using Guid(3ea2b5c1a6bd325419115bda69ef3186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ecdd8164e934b38eb5727ebefbca4') in 0.067513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MRTK/Examples/Experimental/ColorPicker/Textures/RainbowLine.png
+  artifactKey: Guid(0dabc6cda70492b489530619922616a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/ColorPicker/Textures/RainbowLine.png using Guid(0dabc6cda70492b489530619922616a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b865fe3bb90d2aceeb66ea79f85b0') in 0.143412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282457 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Profiles/RecordArticulatedHandPoseSpeechCommandsProfile.asset
+  artifactKey: Guid(c6b131fcb30ab9943a3adcb064d65cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Profiles/RecordArticulatedHandPoseSpeechCommandsProfile.asset using Guid(c6b131fcb30ab9943a3adcb064d65cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb01628e1e2022f9f847abdc63547be') in 0.015789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Prefabs/RecordButton.prefab
+  artifactKey: Guid(231a4253eb1a74d4e87393459447cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Prefabs/RecordButton.prefab using Guid(231a4253eb1a74d4e87393459447cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1419f7df1a83a136925936a571937974') in 0.520420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.957902 seconds.
+  path: Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Prefabs/ScrollingOC_Objects_Plated32x32.prefab
+  artifactKey: Guid(da1d75121e6bdea418a32232572019e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Prefabs/ScrollingOC_Objects_Plated32x32.prefab using Guid(da1d75121e6bdea418a32232572019e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00141dbb0aeefd10b4cbf84aae81046f') in 0.274243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/Speech/Speech.MixedRealityInputSystemProfile.asset
+  artifactKey: Guid(2a6b327d88d172543b7526be8cb2018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/Speech/Speech.MixedRealityInputSystemProfile.asset using Guid(2a6b327d88d172543b7526be8cb2018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a59ecb21b6ae03f532cfb15b4b9b1c') in 0.190096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_TapDown.wav
+  artifactKey: Guid(9a10debaf8483ae49aa91211098634f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_TapDown.wav using Guid(9a10debaf8483ae49aa91211098634f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f97d5ac68c3cc000f6bd089d6991f66') in 0.051404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_Confirmation.wav
+  artifactKey: Guid(9c496bada7bf21e4eb17d275b19f4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_Confirmation.wav using Guid(9c496bada7bf21e4eb17d275b19f4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa28687ba7c89db2402488f22072d27') in 0.036231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MRTK/Examples/Experimental/SceneUnderstanding/Textures/SolarGridPatternGray.png
+  artifactKey: Guid(3cce4c9cab2b82b47b11e5a2fb0e642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/SceneUnderstanding/Textures/SolarGridPatternGray.png using Guid(3cce4c9cab2b82b47b11e5a2fb0e642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c786c6042f2a093194c21976c2e14b14') in 0.038116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_TargetSelected.WAV
+  artifactKey: Guid(13ad719f14620654f8f7588baaa5f9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_TargetSelected.WAV using Guid(13ad719f14620654f8f7588baaa5f9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b32c66a3afa0d22fcc296c18c8a7737') in 0.038160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MRTK/Examples/Experimental/Navigation/Teleport/TeleportMixedRealityInputSimulationProfile.asset
+  artifactKey: Guid(aeee69cde3ce9fe43882400c1d0c7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/Navigation/Teleport/TeleportMixedRealityInputSimulationProfile.asset using Guid(aeee69cde3ce9fe43882400c1d0c7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6a91f4ad99dcd78ba1fdd36419c1a7') in 0.016422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Prefabs/TargetType (3).prefab
+  artifactKey: Guid(8dc211d179882b34996e9bd071b3b61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Prefabs/TargetType (3).prefab using Guid(8dc211d179882b34996e9bd071b3b61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c4c631a74d19aa4e87178e15a65614') in 0.123915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206177 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Textures/tex_circle_border2.psd
+  artifactKey: Guid(27adcdb1ca8af98448f7d645587575d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Textures/tex_circle_border2.psd using Guid(27adcdb1ca8af98448f7d645587575d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62417b6a58356088814695cc83679aa7') in 0.039513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Textures/tex_circle_plain.psd
+  artifactKey: Guid(1745b43e19a8d7541a42fc1eec63a4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Textures/tex_circle_plain.psd using Guid(1745b43e19a8d7541a42fc1eec63a4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb1b0b94ac8e12d8d2b26161d3fcf37') in 0.039942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_icon_LoadData.png
+  artifactKey: Guid(3565ca4f628fe354ea11de03cef414d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_icon_LoadData.png using Guid(3565ca4f628fe354ea11de03cef414d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484431e90dec8fc2a101f89ba750885') in 0.040845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.599688 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Textures/tex_icon_scrolling.png
+  artifactKey: Guid(234e0efde09a18441a4d26b8d08a8092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Textures/tex_icon_scrolling.png using Guid(234e0efde09a18441a4d26b8d08a8092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e3992f71c9a26cde1daf37f28d6aa5') in 0.039129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_picture1.jpg
+  artifactKey: Guid(fb78b1743e281154bb8f15f565a65a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_picture1.jpg using Guid(fb78b1743e281154bb8f15f565a65a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e113ddc635fdb980de6393cc9af4837') in 0.047752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.011553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Textures/tex_PanAndZoom_map.png
+  artifactKey: Guid(a287f0899516f5e46a2709d3973c2337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Textures/tex_PanAndZoom_map.png using Guid(a287f0899516f5e46a2709d3973c2337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c2188d2f77e7561898387852fc2e30') in 0.038571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17e8bcfa6fec3fdd1c52ead2156658f') in 0.041209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_picture2.jpg
+  artifactKey: Guid(d06776b6c3e4d6e4bb275a957cd7ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_picture2.jpg using Guid(d06776b6c3e4d6e4bb275a957cd7ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c6c81fbeb8895e54209087e9711c2c') in 0.037289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.009343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MRTK/Examples/Demos/Audio/Audio/Vocals.wav
+  artifactKey: Guid(b11f08112e7059542ae51c208db0af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Audio/Audio/Vocals.wav using Guid(b11f08112e7059542ae51c208db0af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5642e662e9642c9d022a6a6c1f6f16') in 0.036192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK/Examples/Demos/Gltf/Models/Cube/GLB/cube-with-custom-attr.glb
+  artifactKey: Guid(f0bb9fb635c69be4e8526b0fb6b48f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Gltf/Models/Cube/GLB/cube-with-custom-attr.glb using Guid(f0bb9fb635c69be4e8526b0fb6b48f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e911b8e2ff23642147256e6474f4cd') in 0.106975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_icon_vis.png
+  artifactKey: Guid(4e350af98c6bcda4aaa145e8b6c7c503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Textures/tex_icon_vis.png using Guid(4e350af98c6bcda4aaa145e8b6c7c503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b763f6fdd9b581ba8e9ee96b0cd25011') in 0.037025 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
